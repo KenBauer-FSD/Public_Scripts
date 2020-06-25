@@ -3,6 +3,7 @@ function Send-WOL
 <# 
   .SYNOPSIS  
     Send a WOL packet to a broadcast address
+    Credit to Technet here: https://gallery.technet.microsoft.com/scriptcenter/Send-WOL-packet-using-0638be7b
   .PARAMETER mac
    The MAC address of the device that need to wake up
   .PARAMETER ip
