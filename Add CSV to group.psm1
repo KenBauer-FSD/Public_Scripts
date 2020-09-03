@@ -7,7 +7,7 @@ Add-CSVToGroup -csv c:\temp\users.csv -groupname "All Staff" -reportpath c:\repo
 .INPUTS
 -CSVPath
 .OUTPUTS
-List of failed workstations is exported to c:\temp\FailedImport<date>.csv   
+List of failed users is exported to c:\temp\FailedImport<date>.csv   
 .NOTES
 FailedImport file that is created can be used for subsequent runs of the script, so you can continue to run against that list to catch missed workstations.
 #>
